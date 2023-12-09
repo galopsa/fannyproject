@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maltipoo Shop</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Maltipoo Shop</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Главная</a></li>
+          <li><a href="#puppies">Щенки</a></li>
+          <li><a href="#about">О нас</a></li>
+          <li><a href="#contact">Контакты</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <h2>Добро пожаловать в Maltipoo Shop!</h2>
+        <p>Здесь вы можете найти прекрасных щенков Maltipoo для вашего дома.</p>
+      </section>
+
+      <section id="puppies">
+        <h2>Наши щенки</h2>
+        <div class="puppy-card">
+          <img src="puppy1.jpg" alt="Maltipoo Puppy 1" />
+          <h3>Щенок Maltipoo 1</h3>
+          <p>
+            Очаровательный щенок Maltipoo ищет новый дом. Свяжитесь с нами для
+            получения дополнительной информации.
+          </p>
+          <button onclick="addToCart(1)">Добавить в корзину</button>
+        </div>
+
+        <!-- Добавьте дополнительные карточки с щенками по аналогии -->
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Maltipoo Shop. Все права защищены.</p>
+    </footer>
+
+    <script>
+      function addToCart(puppyId) {
+        // Реализация добавления товара в корзину с использованием JavaScript
+        // Например, можно использовать localStorage для хранения выбранных товаров
+      }
+    </script>
+  </body>
+</html>
